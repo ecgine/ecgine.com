@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Vimukti offers a suite of business management applications and also provides custom business applications for small businesses all over the world.
 
-### More Information
+We develop applications upto 10 times faster than the nearest alternatives.
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Vimukti is a division of Vimukti Technologies Ltd, a privately-held company from Hyderabad, India. Vimukti Technologies is a software development company started in 2001 and has worked on all standard business software technologies, serving many clients.
