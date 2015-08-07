@@ -75,3 +75,7 @@ exclude:
     - LICENSE
     - README.md
     - CNAME
+collections:
+  faqs:
+sass:
+    sass_dir: _sass
