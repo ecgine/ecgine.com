@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+<article class="page">
 <h4>General</h4>
 <div name="posts">
 	{% assign faqlist = (site.faqs | where: "category" , "General" | sort: "number") %}
@@ -74,3 +75,4 @@ layout: page
    		</div>
 	{% endfor %}
 </div>
+</article>

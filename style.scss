@@ -8,10 +8,12 @@
 @import "bootstrap";
 // Syntax highlighting @import is at the bottom of this file
 .wrapper-masthead{
-  margin-top:10px;
+  padding-top: 15px;
+  background-color: #FFF;
 }
 .posts{
   margin-top:20px;
+  position: relative;
 }
 .navbar-right{
   font-size: 1.2em;
@@ -45,7 +47,39 @@
   margin: 5px 0 0 0;
   font-size: 16px;
 }
-
+.header-image{
+  margin-top: 10px;
+}
+@media (min-width: 290px) {
+  .header-image {
+    width: 230px;
+    height: 140px;
+  }
+}
+@media (min-width: 500px) {
+  .header-image {
+    width: 480px;
+    height: 180px;
+  }
+}
+@media (min-width: 768px) {
+  .header-image {
+    width: 750px;
+    height: 220px;
+  }
+}
+@media (min-width: 992px) {
+  .header-image {
+    width: 970px;
+    height: 300px;
+  } 
+}
+@media (min-width: 1200px) {
+  .header-image {
+    width: 1170px;
+    height: 400px;
+  } 
+}
 .features{
   display: inline-block;
   width: 100%;
