@@ -5,4 +5,5 @@ number: 2
 urlname: whoisitfor
 ---
 
-Ecgine is a tool to build and deploy business applications on Desktop, Web, Mobile and Tablets by reducing upto 95% of time and cost. It is an online tool that takes your requirement specification and generates native applications on all platforms.
+
+Ecgine is for every employee in every business. No matter which department you are in your organization, Ecgine provides packages for you to use and keep all your orginization data in sync across the devices.

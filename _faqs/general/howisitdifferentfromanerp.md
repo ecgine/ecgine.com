@@ -5,4 +5,6 @@ number: 3
 urlname: howisitdifferentfromanerp
 ---
 
-Ecgine is a tool to build and deploy business applications on Desktop, Web, Mobile and Tablets by reducing upto 95% of time and cost. It is an online tool that takes your requirement specification and generates native applications on all platforms.
+Ecgnie is not an ERP. It is a platform that can have all features of ERP by installing required packages. As of now we have provided packages for "Accounting" module. More packages are in development that will bring all features of ERP to our users.
+
+Ecgine allowes users to make own Packages and customizations which are not easily possible in big ERP software. 

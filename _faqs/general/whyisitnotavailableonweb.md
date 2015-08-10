@@ -5,4 +5,4 @@ number: 5
 urlname: whyisitnotavailableonweb
 ---
 
-Ecgine is a tool to build and deploy business applications on Desktop, Web, Mobile and Tablets by reducing upto 95% of time and cost. It is an online tool that takes your requirement specification and generates native applications on all platforms.
+By choosing to provide desktop application, we were able to provide much more richer user interface that is fast and flexible. We believe most of our users would like to install the application on the system and have it running all the time.

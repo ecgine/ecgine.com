@@ -5,4 +5,4 @@ number: 4
 urlname: isitavailableonmydevice
 ---
 
-Ecgine is a tool to build and deploy business applications on Desktop, Web, Mobile and Tablets by reducing upto 95% of time and cost. It is an online tool that takes your requirement specification and generates native applications on all platforms.
+As of now Ecgine is available for Windows, Mac and Linux PCs. Ecgine for Android and iOS is in plans. 

@@ -5,4 +5,4 @@ number: 6
 urlname: canicustomizeaninstalledpackage
 ---
 
-write here
+Yes if you are a developer. We have not released the "Developers Guide" yet. Please follow @Ecgine_Devs in twitter to get notified on developers guide.

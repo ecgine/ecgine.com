@@ -5,4 +5,4 @@ number: 1
 urlname: caniusemyownserver
 ---
 
-Yes
+Yes, Please follow our quick guide for own Ecgine Server setup.
