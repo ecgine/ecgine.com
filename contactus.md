@@ -3,6 +3,7 @@ layout: page
 title: Contact Us
 permalink: /contactus/
 ---
+<h1>{{ page.title }}</h1>
 
 ###India Office
 
