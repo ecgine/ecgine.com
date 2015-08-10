@@ -1,0 +1,62 @@
+// JekyllKB v0.1.2 - Sass Stylesheet
+
+// Bootstrap font icons path using jekyll-assets
+// https://github.com/twbs/bootstrap-sass/blob/master/vendor/assets/stylesheets/bootstrap/_glyphicons.scss#L10
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url(asset_path('fonts/bootstrap/#{$icon-font-name}.eot'));
+  src: url(asset_path('fonts/bootstrap/#{$icon-font-name}.eot?#iefix')) format('embedded-opentype'),
+       url(asset_path('fonts/bootstrap/#{$icon-font-name}.woff')) format('woff'),
+       url(asset_path('fonts/bootstrap/#{$icon-font-name}.ttf')) format('truetype'),
+       url(asset_path('fonts/bootstrap/#{$icon-font-name}.svg##{$icon-font-svg-id}')) format('svg');
+}
+
+
+// Font Awesome font icons path using jekyll-assets
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(asset_path('fonts/font-awesome/fontawesome-webfont.eot'));
+  src: url(asset_path('fonts/font-awesome/fontawesome-webfont.eot?#iefix')) format('embedded-opentype'),
+       url(asset_path('fonts/font-awesome/fontawesome-webfont.woff')) format('woff'),
+       url(asset_path('fonts/font-awesome/fontawesome-webfont.ttf')) format('truetype'),
+       url(asset_path('fonts/font-awesome/fontawesome-webfont.svg#fontawesomeregular')) format('svg');
+  font-weight: normal;
+  font-style:  normal;
+}
+
+
+// COLOR SCHEME
+// -------------------------
+//TODO: Insert Flat Grayscale color scheme
+
+$black:       #111      !default;
+$white:       #f9f9f9   !default;
+
+
+// Background color for `<body>`. Overrides Bootstrap
+$body-bg:     #f9f9f9   !default;
+
+
+// NAVBAR
+// -------------------------
+
+// Navbar links float right for desktop and left for mobile
+@media (max-width: 767px) {
+  .nav-links {
+    float: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+  float: right;
+  }
+}
+
+
+// FOOTER
+// -------------------------
+
+footer {
+  background-color: $gray-lighter;
+}

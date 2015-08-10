@@ -54,7 +54,7 @@ baseurl: ""
 #
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
@@ -77,5 +77,23 @@ exclude:
     - CNAME
 collections:
   faqs:
-sass:
-    sass_dir: _sass
+#########################
+# Plugin: jekyll-assets #
+#########################
+
+# Assets Pipeline
+assets:
+  sources:
+    - _assets
+    - _assets/javascripts
+    - _assets/images
+    - _assets/stylesheets
+    - _assets/fonts
+
+  # Minify and Compress Assets
+  compress:
+    css: sass
+    js: uglifier
+
+  # Disable asset gzip
+  gzip: false
