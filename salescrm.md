@@ -5,12 +5,17 @@ title: Best CRM Software for growing businesses.
 meta: Best Customer Relationship Management Software for growing businesses. Comes with integrated accounting.
 ---
 <div>
-	<img src="{{site.baseurl}}/images/Serene-Saturn.png" class="header-image"/>
+   <div class="header-image crm-img">
+   	<div class="container">
+	   	<h1>Best CRM Software for growing businesses</h1>
+		<h4 class="header-last">Comes with integrated accounting.</h4>
+	</div>
+   </div>
 </div>
-#Best CRM Software for growing businesses
-Comes with integrated accounting.
 
+<div class="container">
 <div class="features">
+	
 	  <ul class="feature">
 	  	<li>
 	  		<i class="glyphicon glyphicon-star white"></i>
@@ -54,3 +59,4 @@ Comes with integrated accounting.
 	  	</li>
 	  </ul>
   </div>
+</div>

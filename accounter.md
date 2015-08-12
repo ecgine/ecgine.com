@@ -5,10 +5,16 @@ title: Accounting Software for Small Business
 meta: Best Accounting Software for Small Business. Integrated with CRM to help you grow your business faster.
 ---
 <div>
-	<img src="{{site.baseurl}}/images/planet.png" class="header-image"/>
+	<div class="header-image accounter-img">
+		<div class="container">
+	   		<h1>Now accounting is seamless!</h1>
+			<h4 class="header-last">Accounting happens automatically as you do your business using Ecgine.</h4>
+		</div>
+   </div>
 </div>
-#Now accounting is seamless!
-Accounting happens automatically as you do your business using Ecgine.
+
+</div>
+<div class="container">
  <div class="features">
 	  <ul class="feature">
 	  	<li>
@@ -46,3 +52,4 @@ Accounting happens automatically as you do your business using Ecgine.
 	  	</li>
 	  </ul>
   </div>
+</div>

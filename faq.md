@@ -3,6 +3,7 @@ layout: default
 title: FAQ
 permalink: /faq/
 ---
+<div class="container">
 <article class="page">
 <h1>{{ page.title }}</h1>
 <h4>General</h4>
@@ -79,3 +80,4 @@ permalink: /faq/
 	{% endfor %}
 </div>
 </article>
+</div>

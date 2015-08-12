@@ -2,23 +2,46 @@
 * Custom Sass styles and vendor overrides
 *
 */
-.wrapper-masthead{
-  padding-top: 15px;
-  background-color: #FFF;
+.site-info h2{
+  text-align: left;
 }
-.posts{
-  margin-top:20px;
-  position: relative;
+.crm-img{
+  background-image: url("/images/Serene-Saturn.png");
+}
+.main-img{
+  background-image: url("/images/universe.jpg");
+}
+.accounter-img{
+  background-image: url("/images/planet.png");
+}
+.header-image{
+  padding-top: 30%;
+  color: white;
+  text-align: center;
+  background-size: cover;
+}
+.header-last {
+    padding-bottom: 10%;
 }
 .navbar-right{
   font-size: 1.2em;
 }
+.navbar.navbar-default {
+  margin-bottom: 0px;
+}
 .navbar-header *:hover{
   text-decoration: none;
 }
+.site-avatar,.site-avatar:hover{
+  color: #777;
+}
+.site-avatar{
+  display:flex;
+  padding: 10px 0;
+}
 .site-avatar img {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   margin-right: 15px;
 }
 .site-info{
@@ -37,43 +60,21 @@
   font-size: 28px;
   letter-spacing: 1px;
 }
+.features{
+  margin-top: 3%;
+}
 
+.features{
+  margin-top: 3%;
+} h2{
+  text-align: center;
+}
 .site-description {
   margin: 5px 0 0 0;
   font-size: 16px;
 }
-.header-image{
-  margin-top: 10px;
-}
-@media (min-width: 290px) {
-  .header-image {
-    width: 230px;
-    height: 140px;
-  }
-}
-@media (min-width: 500px) {
-  .header-image {
-    width: 480px;
-    height: 180px;
-  }
-}
-@media (min-width: 768px) {
-  .header-image {
-    width: 750px;
-    height: 220px;
-  }
-}
-@media (min-width: 992px) {
-  .header-image {
-    width: 970px;
-    height: 300px;
-  } 
-}
-@media (min-width: 1200px) {
-  .header-image {
-    width: 1170px;
-    height: 400px;
-  } 
+.carousel-caption{
+  margin-bottom: 10%;
 }
 .white{
   color: #fff;
@@ -84,12 +85,12 @@
   text-align: center;
 }
 .features i{
-  width: 50px;
-  height: 50px;
-  display: inline;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
   background: #38789B;
-  border-radius: 25px;
-  padding: 10px;
+  border-radius: 20px;
+  padding: 12px;
 }
 .features .feature{
   text-align: center;
