@@ -12,35 +12,46 @@
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
      <!-- Compiled and minified CSS -->
     {% stylesheet application %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
 
   <body>
-    <div class="wrapper-masthead">
+     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a href="{{ site.baseurl }}/" class="site-avatar">
             <img src="{{site.baseurl}}{{ site.avatar }}">
               <div class="site-info">
-                <div class="site-name">{{ site.name }}</div>
-                <div class="site-description">{{ site.description }}</div>
+                <h2 class="site-name">{{ site.name }}</h2>
+                <h4 class="site-description">{{ site.description }}</h4>
               </div>
             </img>
           </a>
         </div>
-        {% include headerrightsidebar.html %}
+        <div class="navbar-collapse collapse">
+          <div class="nav navbar-nav nav-links navbar-right">
+            <li><a href="{{ site.baseurl }}/">Home</a></li>
+            <li><a href="{{ site.baseurl }}/accounter">Accounter</a></li>
+            <li><a href="{{ site.baseurl }}/salescrm">SalesCRM</a></li>
+            <li><a href="{{ site.baseurl }}/faq">FAQ</a></li>
+            <li><a href="{{ site.baseurl }}/contactus">Contact Us</a></li>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div id="main" role="main" class="container">
       {{ content }}
-    </div>
 
     <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
     </div>
 
     {% include analytics.html %}
