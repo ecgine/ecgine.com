@@ -5,6 +5,16 @@
 body{
   padding-top: 70px;
 }
+.rightside-bar{
+  right: 0px;
+  padding: 5px;
+  border: 1px solid #C3BEBE;
+  position: fixed;
+  margin-top: 15%;
+  border-radius: 5px 0px 0px 5px;
+  background: #fff;
+  z-index: 2;
+}
 .site-info h2{
   text-align: left;
 }
@@ -21,7 +31,7 @@ body{
   background: rgba(14, 13, 13, 0.5);
 }
 .header-image{
-  padding-top: 30%;
+  padding-top: 15%;
   color: white;
   text-align: center;
   background-size: cover;
@@ -117,8 +127,14 @@ body{
   border-bottom: 1px solid #ddd;
   background: #C8C6C6;
 }
-
 .footer {
   padding: 20px 0;
   text-align: center;
+}
+.fb-like{
+  overflow: hidden;
+  height: 20px;
+}
+.rightside-bar > div{
+  margin-top: 5px;
 }
