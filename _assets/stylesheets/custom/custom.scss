@@ -2,6 +2,9 @@
 * Custom Sass styles and vendor overrides
 *
 */
+body{
+  padding-top: 70px;
+}
 .site-info h2{
   text-align: left;
 }
@@ -14,11 +17,15 @@
 .accounter-img{
   background-image: url("/images/planet.png");
 }
+.header-image .container{
+  background: rgba(14, 13, 13, 0.5);
+}
 .header-image{
   padding-top: 30%;
   color: white;
   text-align: center;
   background-size: cover;
+  opacity: 0.9;
 }
 .header-last {
     padding-bottom: 10%;

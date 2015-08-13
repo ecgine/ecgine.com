@@ -8,8 +8,9 @@ meta: Best Customer Relationship Management Software for growing businesses. Com
    <div class="header-image crm-img">
    	<div class="container">
 	   	<h1>Best CRM Software for growing businesses</h1>
-		<h4 class="header-last">Comes with integrated accounting.</h4>
+		<h4>Comes with integrated accounting.</h4>
 	</div>
+	<div class="header-last"></div>
    </div>
 </div>
 

@@ -8,8 +8,9 @@ meta: Best Accounting Software for Small Business. Integrated with CRM to help y
 	<div class="header-image accounter-img">
 		<div class="container">
 	   		<h1>Now accounting is seamless!</h1>
-			<h4 class="header-last">Accounting happens automatically as you do your business using Ecgine.</h4>
+			<h4>Accounting happens automatically as you do your business using Ecgine.</h4>
 		</div>
+		<div class="header-last"></div>
    </div>
 </div>
 
