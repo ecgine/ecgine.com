@@ -141,3 +141,15 @@ body{
 .rightside-bar > div{
   margin-top: 5px;
 }
+a.btn.signup{
+  margin: 1em;
+  display: inline-block;
+  font-size: 1.8em;
+  padding: 0.3em .8em;
+  background: #582869;
+  border-color: #551E69;
+}
+a.btn.signup:hover{
+  background: #551E69;
+  text-decoration : none;
+}
