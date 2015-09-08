@@ -9,6 +9,7 @@ meta: Best Accounting Software for Small Business. Integrated with CRM to help y
 		<div class="container">
 	   		<h1>Now accounting is seamless!</h1>
 			<h4>Accounting happens automatically as you do your business using Ecgine.</h4>
+			<a class="btn btn-success btn-lg signup" href="https://s1.infra.ecgine.com/signup">Signup Now</a>
 		</div>
 		<div class="header-last"></div>
    </div>
