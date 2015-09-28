@@ -65,7 +65,14 @@ body{
   margin-right: 15px;
 }
 .site-info{
-  display: inline-block;
+  display: inline;
+}
+.site-info h2{
+  display: inline;
+  vertical-align: top;
+}
+.site-info .site-version{
+  color: #E34747;
 }
 .site-avatar img,.site-info{
   vertical-align: middle;
