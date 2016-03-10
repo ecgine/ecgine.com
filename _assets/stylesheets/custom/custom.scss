@@ -2,8 +2,22 @@
 * Custom Sass styles and vendor overrides
 *
 */
-body{
-  padding-top: 70px;
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 14px;
+    padding-top: 50px;
+}
+p {
+    font-size: 18px;
+}
+h1,h2,h3,h4,h5,p{
+  font-family: "Roboto Condensed", sans-serif;
+}
+h3 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 36px;
 }
 .italic{
   font-style: italic;
@@ -21,24 +35,18 @@ body{
 .site-info h2{
   text-align: left;
 }
-.crm-img{
-  background-image: url("/images/Serene-Saturn.png");
-}
-.main-img{
-  background-image: url("/images/universe.jpg");
-}
-.accounter-img{
-  background-image: url("/images/planet.png");
-}
-.header-image .container{
-  background: rgba(14, 13, 13, 0.5);
+.main-img,.crm-img,.accounter-img {
+    background: #551E69;
+    background: -webkit-linear-gradient(#551E69, #5B3369);
+    background: -o-linear-gradient(#551E69, #5B3369);
+    background: -moz-linear-gradient(#551E69, #5B3369);
+    background: linear-gradient(#551E69, #5B3369);
 }
 .header-image{
   padding-top: 15%;
   color: white;
   text-align: center;
   background-size: cover;
-  opacity: 0.9;
 }
 .header-last {
     padding-bottom: 10%;
@@ -53,16 +61,15 @@ body{
   text-decoration: none;
 }
 .site-avatar,.site-avatar:hover{
-  color: #777;
+  color:#fff;
 }
 .site-avatar{
   display:flex;
-  padding: 10px 0;
+  margin-top: 5px
 }
 .site-avatar img {
-  width: 50px;
-  height: 50px;
-  margin-right: 15px;
+  width: 40px;
+  height: 40px;
 }
 .site-info{
   display: inline;
@@ -135,7 +142,7 @@ body{
   margin-top: 30px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background: #C8C6C6;
+  background: #674290;
 }
 .footer {
   padding: 20px 0;
@@ -159,4 +166,15 @@ a.btn.signup{
 a.btn.signup:hover{
   background: #551E69;
   text-decoration : none;
+}
+.navbar-default {
+    background-color: #6b4c89;
+    border:0px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
+  color:#fff;
+  background-color:#53316F;
 }
