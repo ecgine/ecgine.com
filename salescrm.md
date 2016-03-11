@@ -9,7 +9,7 @@ meta: Best Customer Relationship Management Software for growing businesses. Com
    	<div class="container">
 	   	<h1>Best CRM Software for growing businesses</h1>
 		<h4>Comes with integrated accounting.</h4>
-		<a class="btn btn-success btn-lg signup" href="https://s1.infra.ecgine.com/signup">Sign Up Now</a>
+		<a class="btn btn-success btn-lg signup" href="{{ site.signup }}">Sign Up Now</a>
 	</div>
 	<div class="header-last"></div>
    </div>
