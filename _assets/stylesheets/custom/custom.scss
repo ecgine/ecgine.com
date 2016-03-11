@@ -34,6 +34,7 @@ h2 {
 }
 .site-info h2{
   text-align: left;
+  margin-left: 10px;
 }
 .main-img,.crm-img,.accounter-img {
     background: #551E69;
@@ -78,9 +79,6 @@ h2 {
   display: inline;
   vertical-align: top;
 }
-.site-info .site-version{
-  color: #E34747;
-}
 .site-avatar img,.site-info{
   vertical-align: middle;
 }
@@ -119,12 +117,7 @@ h2 {
   text-align: center;
 }
 .features i{
-  width: 40px;
-  height: 40px;
   display: inline-block;
-  background: #38789B;
-  border-radius: 20px;
-  padding: 12px;
 }
 .features .feature{
   text-align: center;
@@ -142,7 +135,7 @@ h2 {
   margin-top: 30px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background: #674290;
+  background: #551E69;
 }
 .footer {
   padding: 20px 0;
@@ -161,14 +154,14 @@ a.btn.signup{
   font-size: 1.8em;
   padding: 0.3em .8em;
   background: #582869;
-  border-color: #551E69;
+  border-color: #FFFFFF;
 }
 a.btn.signup:hover{
-  background: #551E69;
+  background: #85429C;
   text-decoration : none;
 }
 .navbar-default {
-    background-color: #6b4c89;
+    background-color: #551E69;
     border:0px;
 }
 .navbar-default .navbar-nav > li > a {
@@ -177,4 +170,8 @@ a.btn.signup:hover{
 .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
   color:#fff;
   background-color:#53316F;
+}
+.feature .glyphicon{
+  color:#551E69;
+  font-size: 5.2em;
 }
