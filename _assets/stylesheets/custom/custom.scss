@@ -79,9 +79,6 @@ h2 {
   display: inline;
   vertical-align: top;
 }
-.site-info .site-version{
-  color: #E34747;
-}
 .site-avatar img,.site-info{
   vertical-align: middle;
 }
@@ -120,12 +117,7 @@ h2 {
   text-align: center;
 }
 .features i{
-  width: 40px;
-  height: 40px;
   display: inline-block;
-  background: #38789B;
-  border-radius: 20px;
-  padding: 12px;
 }
 .features .feature{
   text-align: center;
@@ -178,4 +170,8 @@ a.btn.signup:hover{
 .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
   color:#fff;
   background-color:#53316F;
+}
+.feature .glyphicon{
+  color:#551E69;
+  font-size: 5.2em;
 }
