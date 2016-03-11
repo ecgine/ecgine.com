@@ -44,13 +44,13 @@ h2 {
     background: linear-gradient(#551E69, #5B3369);
 }
 .header-image{
-  padding-top: 15%;
+  padding-top: 5%;
   color: white;
   text-align: center;
   background-size: cover;
 }
 .header-last {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 .navbar-right{
   font-size: 1.2em;
@@ -66,7 +66,11 @@ h2 {
 }
 .site-avatar{
   display:flex;
-  margin-top: 5px
+  margin-top: 5px;
+  line-height: 40px;
+}
+.site-version{
+  vertical-align: middle;
 }
 .site-avatar img {
   width: 40px;
@@ -174,4 +178,12 @@ a.btn.signup:hover{
 .feature .glyphicon{
   color:#551E69;
   font-size: 5.2em;
+}
+.container.heading-pane .apps p{
+  text-align: justify;
+  text-indent: 50px;
+}
+.feature h3{
+  color:#551E69;
+  font-size: 28px;
 }
