@@ -34,6 +34,7 @@ h2 {
 }
 .site-info h2{
   text-align: left;
+  margin-left: 10px;
 }
 .main-img,.crm-img,.accounter-img {
     background: #551E69;
@@ -142,7 +143,7 @@ h2 {
   margin-top: 30px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background: #674290;
+  background: #551E69;
 }
 .footer {
   padding: 20px 0;
@@ -161,14 +162,14 @@ a.btn.signup{
   font-size: 1.8em;
   padding: 0.3em .8em;
   background: #582869;
-  border-color: #551E69;
+  border-color: #FFFFFF;
 }
 a.btn.signup:hover{
-  background: #551E69;
+  background: #85429C;
   text-decoration : none;
 }
 .navbar-default {
-    background-color: #6b4c89;
+    background-color: #551E69;
     border:0px;
 }
 .navbar-default .navbar-nav > li > a {
