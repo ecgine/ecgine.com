@@ -12,7 +12,8 @@ description: The unified business software suite
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/website-logo.png
-
+# URL of ecgine screen shot pic
+downloadimage: /images/ecginescreenshot.jpg
 #
 # Flags below are optional
 #
