@@ -180,11 +180,26 @@ a.btn.signup:hover{
   color:#551E69;
   font-size: 5.2em;
 }
-.container.heading-pane .apps p{
-  text-align: justify;
-  text-indent: 50px;
-}
 .feature h3{
   color:#551E69;
   font-size: 28px;
+}
+.apps .col-md-4:hover{
+  cursor: pointer;
+}
+.downloadimage{
+  width: 70%;
+}
+#downloadpage{
+  padding: 20px 0
+}
+.apps .col-md-4 .glyphicon{
+  color: #fff;
+  font-size: 4em;
+}
+.apps .col-md-4 a{
+  color: #fff;
+}
+.apps .col-md-4 a:hover,.apps .col-md-4 a:active,.apps .col-md-4 a:focus{
+  text-decoration: none;
 }
