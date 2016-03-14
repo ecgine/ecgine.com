@@ -1,8 +1,7 @@
 <script type="text/javascript">
 function validateAndDownload() {
-	var form = document.getElementById("downloadform");
-	var result=form.elements["osandtype"].value;
-    if (result==null || restult=="") {
+	var result=document.querySelector('input[name="osandtype"]:checked').value
+    if (result==null || result=="") {
         alert("Please select an Ecgine setup appropriate for you system.");
         return false;
     }else{
