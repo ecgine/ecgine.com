@@ -81,7 +81,7 @@ h2 {
 }
 .site-info h2{
   display: inline;
-  vertical-align: top;
+  vertical-align: middle;
 }
 .site-avatar img,.site-info{
   vertical-align: middle;
@@ -144,6 +144,7 @@ h2 {
 .footer {
   padding: 20px 0;
   text-align: center;
+  background-color: #551E69;
 }
 .fb-like{
   overflow: hidden;
@@ -172,8 +173,8 @@ a.btn.signup:hover{
     color: #fff;
 }
 .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
-  color:#fff;
-  background-color:#53316F;
+  color:#53316F;
+  background-color:#fff;
 }
 .feature .glyphicon{
   color:#551E69;
