@@ -23,4 +23,9 @@ function validateDownloadForm() {
 		}
     }
 }
+function showDemo(){
+		var cp = $('#demo-video');
+		cp.show();
+		cp.dialog();
+}
 </script>
