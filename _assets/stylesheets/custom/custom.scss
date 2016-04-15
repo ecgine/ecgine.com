@@ -203,3 +203,25 @@ a.btn.signup:hover{
 .apps .col-md-4 a:hover,.apps .col-md-4 a:active,.apps .col-md-4 a:focus{
   text-decoration: none;
 }
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+}
+.ui-dialog {
+  width:850px !important;
+}
+.ui-dialog object {
+  width: 100%;
+  height: 60%;
+}
