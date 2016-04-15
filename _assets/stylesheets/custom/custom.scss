@@ -137,8 +137,6 @@ h2 {
 }
 .wrapper-footer {
   margin-top: 30px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
   background: #551E69;
 }
 .footer {
@@ -202,4 +200,19 @@ a.btn.signup:hover{
 }
 .apps .col-md-4 a:hover,.apps .col-md-4 a:active,.apps .col-md-4 a:focus{
   text-decoration: none;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
 }
