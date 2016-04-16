@@ -218,8 +218,9 @@ body {
 }
 .ui-dialog {
   width:850px !important;
+  z-index:1050;
 }
 .ui-dialog #video-file{
   width: 100%;
-  height: 350px;
+  height: 400px;
 }
